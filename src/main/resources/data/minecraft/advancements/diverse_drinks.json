@@ -1,0 +1,88 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "apple_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:apple_juice_bottle"]
+        }
+      }
+    },
+    "carrot_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:carrot_juice_bottle"]
+        }
+      }
+    },
+    "chorus_fruit_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:chorus_fruit_juice_bottle"]
+        }
+      }
+    },
+    "glow_berry_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:glow_berry_juice_bottle"]
+        }
+      }
+    },
+    "melon_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:melon_juice_bottle"]
+        }
+      }
+    },
+    "sugarcane_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:sugarcane_juice_bottle"]
+        }
+      }
+    },
+    "sweet_berry_juice_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["create_drinks:sweet_berry_juice_bottle"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge",
+    "show_toast": true,
+    "icon": {
+      "item": "create_drinks:apple_juice_bottle"
+    },
+    "title": {
+      "translate": "advancements.husbandry.diverse_drinks.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.diverse_drinks.description"
+    }
+  },
+  "requirements": [
+    ["apple_juice_bottle"],
+    ["carrot_juice_bottle"],
+    ["chorus_fruit_juice_bottle"],
+    ["glow_berry_juice_bottle"],
+    ["melon_juice_bottle"],
+    ["sugarcane_juice_bottle"],
+    ["sweet_berry_juice_bottle"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

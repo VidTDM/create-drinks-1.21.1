@@ -1,0 +1,34 @@
+{
+  "advancements.husbandry.diverse_drinks.title": "diverse drinx",
+  "advancements.husbandry.diverse_drinks.description": "drink evry juisz in da game",
+
+  "creativetab.create_drinks.create_drinks_tab": "Create: Drinks",
+
+  "block.create_drinks.apple_juice": "apel juisz",
+  "fluid.create_drinks.apple_juice": "apel juisz",
+  "item.create_drinks.apple_juice_bottle": "botul ov apel juisz",
+
+  "block.create_drinks.carrot_juice": "juisz of rebbit treetz",
+  "fluid.create_drinks.carrot_juice": "juisz of rebbit treetz",
+  "item.create_drinks.carrot_juice_bottle": "botul ov juisz ov rebbit treetz",
+
+  "block.create_drinks.glow_berry_juice": "shiny beri juisz",
+  "fluid.create_drinks.glow_berry_juice": "shiny beri juisz",
+  "item.create_drinks.glow_berry_juice_bottle": "botul ov shiny beri juisz",
+
+  "block.create_drinks.sweet_berry_juice": "swet berry juisz",
+  "fluid.create_drinks.sweet_berry_juice": "swet berry juisz",
+  "item.create_drinks.sweet_berry_juice_bottle": "botul ov swet berry juisz",
+
+  "block.create_drinks.sugarcane_juice": "sugarcane juisz",
+  "fluid.create_drinks.sugarcane_juice": "sugarcane juisz",
+  "item.create_drinks.sugarcane_juice_bottle": "botul ov sugarcane juisz",
+
+  "block.create_drinks.melon_juice": "meLOON juisz",
+  "fluid.create_drinks.melon_juice": "meLOON juisz",
+  "item.create_drinks.melon_juice_bottle": "botul ov meLOON juisz",
+
+  "block.create_drinks.chorus_fruit_juice": "juisz ov da frute dat duznt sing",
+  "fluid.create_drinks.chorus_fruit_juice": "juisz ov da frute dat duznt sing",
+  "item.create_drinks.chorus_fruit_juice_bottle": "botul ov juisz ov da frute dat duznt sing"
+}

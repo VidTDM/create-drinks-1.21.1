@@ -1,0 +1,34 @@
+{
+  "advancements.husbandry.diverse_drinks.title": "Diverse Drinks",
+  "advancements.husbandry.diverse_drinks.description": "Drink every juice in the game.",
+
+  "creativetab.create_drinks.create_drinks_tab": "Create: Drinks",
+
+  "block.create_drinks.apple_juice": "Apple Juice",
+  "fluid.create_drinks.apple_juice": "Apple Juice",
+  "item.create_drinks.apple_juice_bottle": "Bottle o' Apple Juice",
+
+  "block.create_drinks.carrot_juice": "Carrot Juice",
+  "fluid.create_drinks.carrot_juice": "Carrot Juice",
+  "item.create_drinks.carrot_juice_bottle": "Bottle o' Carrot Juice",
+
+  "block.create_drinks.glow_berry_juice": "Glow Berry Juice",
+  "fluid.create_drinks.glow_berry_juice": "Glow Berry Juice",
+  "item.create_drinks.glow_berry_juice_bottle": "Bottle o' Glow Berry Juice",
+
+  "block.create_drinks.sweet_berry_juice": "Sweet Berry Juice",
+  "fluid.create_drinks.sweet_berry_juice": "Sweet Berry Juice",
+  "item.create_drinks.sweet_berry_juice_bottle": "Bottle o' Sweet Berry Juice",
+
+  "block.create_drinks.sugarcane_juice": "Sugarcane Juice",
+  "fluid.create_drinks.sugarcane_juice": "Sugarcane Juice",
+  "item.create_drinks.sugarcane_juice_bottle": "Bottle o' Sugarcane Juice",
+
+  "block.create_drinks.melon_juice": "Melon Juice",
+  "fluid.create_drinks.melon_juice": "Melon Juice",
+  "item.create_drinks.melon_juice_bottle": "Bottle o' Melon Juice",
+
+  "block.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
+  "fluid.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
+  "item.create_drinks.chorus_fruit_juice_bottle": "Bottle o' Chorus Fruit Juice"
+}
