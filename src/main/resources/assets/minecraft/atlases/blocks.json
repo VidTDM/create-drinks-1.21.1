@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "create_drinks:block/apple_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:blocks/apple_juice_flow"
+    }
+  ]
+}
