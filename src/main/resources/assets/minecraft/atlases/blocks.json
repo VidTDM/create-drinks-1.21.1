@@ -6,7 +6,55 @@
     },
     {
       "type": "single",
-      "resource": "create_drinks:blocks/apple_juice_flow"
+      "resource": "create_drinks:block/apple_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/carrot_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/carrot_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/glow_berry_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/glow_berry_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/sweet_berry_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/sweet_berry_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/sugarcane_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/sugarcane_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/melon_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/melon_juice_still"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/chorus_fruit_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_drinks:block/chorus_fruit_juice_still"
     }
   ]
 }

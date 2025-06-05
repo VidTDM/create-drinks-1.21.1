@@ -17,10 +17,8 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(CreateDrinks.MODID)
-public class CreateDrinks
-{
+public class CreateDrinks {
     public static final String MODID = "create_drinks";
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -40,7 +38,6 @@ public class CreateDrinks
 
     private void commonSetup(final FMLCommonSetupEvent event) {}
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }
 

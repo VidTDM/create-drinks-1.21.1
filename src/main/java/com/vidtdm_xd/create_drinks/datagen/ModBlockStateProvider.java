@@ -3,7 +3,6 @@ package com.vidtdm_xd.create_drinks.datagen;
 import com.vidtdm_xd.create_drinks.CreateDrinks;
 import com.vidtdm_xd.create_drinks.registry.ModBlocks;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
@@ -20,20 +19,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         liquidBlock(ModBlocks.APPLE_JUICE, "apple_juice");
+        liquidBlock(ModBlocks.CARROT_JUICE, "carrot_juice");
+        liquidBlock(ModBlocks.GLOW_BERRY_JUICE, "glow_berry_juice");
+        liquidBlock(ModBlocks.SWEET_BERRY_JUICE, "sweet_berry_juice");
+        liquidBlock(ModBlocks.SUGARCANE_JUICE, "sugarcane_juice");
+        liquidBlock(ModBlocks.MELON_JUICE, "melon_juice");
+        liquidBlock(ModBlocks.CHORUS_FRUIT_JUICE, "chorus_fruit_juice");
     }
 
     private void liquidBlock(DeferredBlock<? extends LiquidBlock> block, String name) {
-        ResourceLocation modelLoc = modLoc("block/" + name);
         VariantBlockStateBuilder builder = getVariantBuilder(block.get());
 
+        ModelBuilder<?> modelBuilder = models().getBuilder(name);
+        modelBuilder.texture("particle", modLoc("block/" + name + "_still"));
         for (int i = 0; i <= 15; i++) {
             builder.partialState()
                     .with(BlockStateProperties.LEVEL, i)
                     .modelForState()
-                    .modelFile(models().getExistingFile(modelLoc))
+                    .modelFile(models().getExistingFile(modLoc("block/" + name)))
                     .addModel();
         }
-        ModelBuilder<?> modelBuilder = models().getBuilder(name);
-        modelBuilder.texture("particle", modLoc("block/" + name + "_still"));
     }
 }

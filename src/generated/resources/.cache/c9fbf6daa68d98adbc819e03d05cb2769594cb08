@@ -1,3 +1,15 @@
-// 1.21.1	2025-06-04T21:34:57.6525717	Block States: create_drinks
+// 1.21.1	2025-06-05T19:33:03.983785	Block States: create_drinks
 14662c79d9343691831c2c88af9e215b3917ddcd assets/create_drinks/blockstates/apple_juice.json
+2bb2788b3620fa071fe2b1eb28d419c00874fa2f assets/create_drinks/blockstates/carrot_juice.json
+5892eceeeb2c5892b2e0cba7bf426958e54eb472 assets/create_drinks/blockstates/chorus_fruit_juice.json
+da7f6ff85e69ad5e4cc19eae47409e6ed1e68cdb assets/create_drinks/blockstates/glow_berry_juice.json
+51c208ebb2b48dbc08349c72a2609f2b4987e2e6 assets/create_drinks/blockstates/melon_juice.json
+73efe31e904905bd9de2525b5bd23219a261c5fb assets/create_drinks/blockstates/sugarcane_juice.json
+305293b1fa386251013ab0663cc7d26543b6e761 assets/create_drinks/blockstates/sweet_berry_juice.json
 209f9078f5a63c20d25abafc12637916b41f01c6 assets/create_drinks/models/block/apple_juice.json
+ea2d4dd0ce04dcd2360df93fee201b01871cc1eb assets/create_drinks/models/block/carrot_juice.json
+16a8a3203f2a02378e5e6ed4e0b320f574012b94 assets/create_drinks/models/block/chorus_fruit_juice.json
+2d3b1d9c90639a118d1a6dd3b6e9b1498e138597 assets/create_drinks/models/block/glow_berry_juice.json
+f0ceac86f7e34cadc513abcb96ce9f87be8550fb assets/create_drinks/models/block/melon_juice.json
+774d0439766df2919f1070f08fb41a2fbfb62352 assets/create_drinks/models/block/sugarcane_juice.json
+90332a8425b541c6765694dcfc76ee3dc8a15d3c assets/create_drinks/models/block/sweet_berry_juice.json
