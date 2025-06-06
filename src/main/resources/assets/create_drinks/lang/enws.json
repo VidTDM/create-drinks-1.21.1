@@ -5,30 +5,30 @@
   "creativetab.create_drinks.create_drinks_tab": "Create: Drinks",
 
   "block.create_drinks.apple_juice": "Apple Juice",
-  "fluid.create_drinks.apple_juice": "Apple Juice",
+  "fluid_type.create_drinks.apple_juice": "Apple Juice",
   "item.create_drinks.apple_juice_bottle": "Bombard of Apple Juice",
 
   "block.create_drinks.carrot_juice": "Carrot Juice",
-  "fluid.create_drinks.carrot_juice": "Carrot Juice",
+  "fluid_type.create_drinks.carrot_juice": "Carrot Juice",
   "item.create_drinks.carrot_juice_bottle": "Bombard of Carrot Juice",
 
   "block.create_drinks.glow_berry_juice": "Gloweth B'rry Juice",
-  "fluid.create_drinks.glow_berry_juice": "Gloweth B'rry Juice",
+  "fluid_type.create_drinks.glow_berry_juice": "Gloweth B'rry Juice",
   "item.create_drinks.glow_berry_juice_bottle": "Bombard of Gloweth B'rry Juice",
 
   "block.create_drinks.sweet_berry_juice": "Sweet B'rry Juice",
-  "fluid.create_drinks.sweet_berry_juice": "Sweet B'rry Juice",
+  "fluid_type.create_drinks.sweet_berry_juice": "Sweet B'rry Juice",
   "item.create_drinks.sweet_berry_juice_bottle": "Bombard of Sweet B'rry Juice",
 
   "block.create_drinks.sugarcane_juice": "Sugarcane Juice",
-  "fluid.create_drinks.sugarcane_juice": "Sugarcane Juice",
+  "fluid_type.create_drinks.sugarcane_juice": "Sugarcane Juice",
   "item.create_drinks.sugarcane_juice_bottle": "Bombard of Sugarcane Juice",
 
   "block.create_drinks.melon_juice": "Melon Juice",
-  "fluid.create_drinks.melon_juice": "Melon Juice",
+  "fluid_type.create_drinks.melon_juice": "Melon Juice",
   "item.create_drinks.melon_juice_bottle": "Bombard of Melon Juice",
 
   "block.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
-  "fluid.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
+  "fluid_type.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
   "item.create_drinks.chorus_fruit_juice_bottle": "Bombard of Chorus Fruit Juice"
 }

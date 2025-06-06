@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "create_drinks:carrot_juice_bottle"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_drinks:carrot_juice"
+    },
+    {
+      "id": "minecraft:glass_bottle"
+    }
+  ]
+}

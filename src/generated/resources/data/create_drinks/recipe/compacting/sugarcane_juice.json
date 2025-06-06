@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_drinks:sugarcane_juice"
+    }
+  ]
+}
