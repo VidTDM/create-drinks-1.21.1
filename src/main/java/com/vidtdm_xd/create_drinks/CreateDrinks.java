@@ -38,7 +38,9 @@ public class CreateDrinks {
         modEventBus.addListener(this::addCreative);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(ModVillagers::fillTradeData);
+    }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }

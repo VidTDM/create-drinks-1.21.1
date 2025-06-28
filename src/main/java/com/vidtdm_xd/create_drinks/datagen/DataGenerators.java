@@ -5,6 +5,7 @@ import com.vidtdm_xd.create_drinks.CreateDrinks;
 import com.vidtdm_xd.create_drinks.datagen.recipes.CompactingRecipeGen;
 import com.vidtdm_xd.create_drinks.datagen.recipes.EmptyingRecipeGen;
 import com.vidtdm_xd.create_drinks.datagen.recipes.FillingRecipeGen;
+import com.vidtdm_xd.create_drinks.datagen.recipes.VanillaRecipeGen;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.DataProvider;
@@ -34,6 +35,7 @@ public class DataGenerators {
 
         generator.addProvider(e.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(e.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(e.includeServer(), new VanillaRecipeGen(packOutput, e.getLookupProvider()));
 
         generator.addProvider(e.includeClient(), new DataProvider() {
             @Override
