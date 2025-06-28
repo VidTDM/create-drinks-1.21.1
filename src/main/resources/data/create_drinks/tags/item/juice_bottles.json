@@ -1,0 +1,11 @@
+{
+  "values": [
+    "create_drinks:apple_juice_bottle",
+    "create_drinks:carrot_juice_bottle",
+    "create_drinks:melon_juice_bottle",
+    "create_drinks:sweet_berry_juice_bottle",
+    "create_drinks:chorus_fruit_juice_bottle",
+    "create_drinks:sugarcane_juice_bottle",
+    "create_drinks:glow_berry_juice_bottle"
+  ]
+}

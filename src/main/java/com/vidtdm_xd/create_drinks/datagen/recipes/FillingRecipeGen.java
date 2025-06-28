@@ -1,8 +1,5 @@
 package com.vidtdm_xd.create_drinks.datagen.recipes;
 
-import com.simibubi.create.AllRecipeTypes;
-import com.simibubi.create.foundation.data.recipe.ProcessingRecipeGen;
-import com.simibubi.create.foundation.recipe.IRecipeTypeInfo;
 import com.vidtdm_xd.create_drinks.registry.ModFluids;
 import com.vidtdm_xd.create_drinks.registry.ModItems;
 import net.minecraft.core.HolderLookup;
@@ -14,7 +11,8 @@ import java.util.concurrent.CompletableFuture;
 
 import static com.vidtdm_xd.create_drinks.CreateDrinks.MODID;
 
-public class FillingRecipeGen extends ProcessingRecipeGen {
+@SuppressWarnings("unused")
+public class FillingRecipeGen extends com.simibubi.create.api.data.recipe.FillingRecipeGen {
     GeneratedRecipe
             APPLE_JUICE = create(ResourceLocation.fromNamespaceAndPath(MODID,"apple_juice"),
             b -> b.output(ModItems.APPLE_JUICE_BOTTLE).require(ModFluids.APPLE_JUICE.get(), 250)
@@ -39,11 +37,6 @@ public class FillingRecipeGen extends ProcessingRecipeGen {
                             .require(Items.GLASS_BOTTLE));
 
     public FillingRecipeGen(PackOutput generator, CompletableFuture<HolderLookup.Provider> registries) {
-        super(generator, registries);
-    }
-
-    @Override
-    protected IRecipeTypeInfo getRecipeType() {
-        return AllRecipeTypes.FILLING;
+        super(generator, registries, MODID);
     }
 }

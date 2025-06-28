@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-06T19:48:45.3317168	Create: Drinks's recipe datagen
+// 1.21.1	2025-06-28T11:48:19.4465678	Create: Drinks's recipe datagen
 d4bf8f17bf9c584687ab6ef22d996c7ef2c1672e data/create_drinks/recipe/compacting/apple_juice.json
 9d93f10a603cba0ffc6c8956a98f5dd2bfb8cf7a data/create_drinks/recipe/compacting/carrot_juice.json
 8bb096ca490d123303900da07f7c5ba247db4174 data/create_drinks/recipe/compacting/chorus_fruit_juice.json
@@ -6,13 +6,13 @@ d4bf8f17bf9c584687ab6ef22d996c7ef2c1672e data/create_drinks/recipe/compacting/ap
 10760e58b8c61eecff7d43aba4a6348b559ff3b5 data/create_drinks/recipe/compacting/melon_juice.json
 87c128afca2d1c3fda83182374bfe0e287f8f577 data/create_drinks/recipe/compacting/sugarcane_juice.json
 e5578a05646f30a13a8d7bc5364068791b7f0ff8 data/create_drinks/recipe/compacting/sweet_berry_juice.json
-1d7b8f1bbcdd551bedb4e7d56fc6eb492441baf9 data/create_drinks/recipe/emptying/apple_juice.json
-de5162d49e42184329d10645b6ed11f0d12f989b data/create_drinks/recipe/emptying/carrot_juice.json
-960b5cd54f1244705ab87f5b3163742d9f653468 data/create_drinks/recipe/emptying/chorus_fruit_juice.json
-888b3e726cf8e6f33f783bba6f20c50b91ec3b8f data/create_drinks/recipe/emptying/glow_berry_juice.json
-1b814a065562d72ee160cd3b2f811abc4a51a695 data/create_drinks/recipe/emptying/melon_juice.json
-d9aac0d6bcf1b31e110fd4ff3a2cb63182b94a82 data/create_drinks/recipe/emptying/sugarcane_juice.json
-c3054358507519731970a5d5ab10688b32faec38 data/create_drinks/recipe/emptying/sweet_berry_juice.json
+3b4db20e052453d746de9ba3dafe487fbc0a5333 data/create_drinks/recipe/emptying/apple_juice.json
+af621fb2520fe05ec6f85a024beef1e1cb19a2b7 data/create_drinks/recipe/emptying/carrot_juice.json
+54b85fccdb5b13c0375168766dd92d7b2fa7f8fd data/create_drinks/recipe/emptying/chorus_fruit_juice.json
+342ef91b95aaae5042d2c6f21218a2c459af0a45 data/create_drinks/recipe/emptying/glow_berry_juice.json
+bb282d22256cb61b81f9ba21fa76724447a79ef9 data/create_drinks/recipe/emptying/melon_juice.json
+c4974aa27c6a544e0121cfffa6483790e104b92e data/create_drinks/recipe/emptying/sugarcane_juice.json
+08625b4e664a92040b6080455d03d0f98ef7eeb4 data/create_drinks/recipe/emptying/sweet_berry_juice.json
 dd383ad75607f2d381e5911b22c67ffe22037059 data/create_drinks/recipe/filling/apple_juice.json
 9283577b2524ac2b2c550bf016d1204d8750c3de data/create_drinks/recipe/filling/carrot_juice.json
 765660ad2b3bc6187cf0371509fdbab667461dfb data/create_drinks/recipe/filling/chorus_fruit_juice.json

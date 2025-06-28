@@ -1,6 +1,6 @@
 package com.vidtdm_xd.create_drinks.datagen;
 
-import com.simibubi.create.foundation.data.recipe.ProcessingRecipeGen;
+import com.simibubi.create.api.data.recipe.ProcessingRecipeGen;
 import com.vidtdm_xd.create_drinks.CreateDrinks;
 import com.vidtdm_xd.create_drinks.datagen.recipes.CompactingRecipeGen;
 import com.vidtdm_xd.create_drinks.datagen.recipes.EmptyingRecipeGen;
@@ -20,7 +20,7 @@ import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = CreateDrinks.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
-    protected static final List<ProcessingRecipeGen> GENERATORS = new ArrayList<>();
+    protected static final List<ProcessingRecipeGen<?, ?, ?>> GENERATORS = new ArrayList<>();
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent e) {

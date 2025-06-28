@@ -1,6 +1,7 @@
 package com.vidtdm_xd.create_drinks;
 
 import com.vidtdm_xd.create_drinks.registry.*;
+import com.vidtdm_xd.create_drinks.villager.ModVillagers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,6 +33,7 @@ public class CreateDrinks {
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
         ModCreativeModTab.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
     }

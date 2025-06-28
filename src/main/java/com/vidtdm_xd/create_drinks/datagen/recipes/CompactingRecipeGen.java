@@ -1,8 +1,5 @@
 package com.vidtdm_xd.create_drinks.datagen.recipes;
 
-import com.simibubi.create.AllRecipeTypes;
-import com.simibubi.create.foundation.data.recipe.ProcessingRecipeGen;
-import com.simibubi.create.foundation.recipe.IRecipeTypeInfo;
 import com.vidtdm_xd.create_drinks.registry.ModFluids;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -13,7 +10,8 @@ import java.util.concurrent.CompletableFuture;
 
 import static com.vidtdm_xd.create_drinks.CreateDrinks.MODID;
 
-public class CompactingRecipeGen extends ProcessingRecipeGen {
+@SuppressWarnings("unused")
+public class CompactingRecipeGen extends com.simibubi.create.api.data.recipe.CompactingRecipeGen {
     GeneratedRecipe
         APPLE_JUICE = create(ResourceLocation.fromNamespaceAndPath(MODID,"apple_juice"),
                 b -> b.require(Items.APPLE)
@@ -44,11 +42,6 @@ public class CompactingRecipeGen extends ProcessingRecipeGen {
                         .output(ModFluids.CHORUS_FRUIT_JUICE.get(), 250));
 
     public CompactingRecipeGen(PackOutput generator, CompletableFuture<HolderLookup.Provider> registries) {
-        super(generator, registries);
-    }
-
-    @Override
-    protected IRecipeTypeInfo getRecipeType() {
-        return AllRecipeTypes.COMPACTING;
+        super(generator, registries, MODID);
     }
 }
