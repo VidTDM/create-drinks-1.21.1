@@ -32,5 +32,7 @@
   "fluid_type.create_drinks.chorus_fruit_juice": "Chorus Fruit Juice",
   "item.create_drinks.chorus_fruit_juice_bottle": "Bottle of Chorus Fruit Juice",
 
+  "block.create_drinks.apple_crate": "Crate of Apples",
+
   "entity.minecraft.villager.create_drinks.fruit_vendor": "Fruit Vendor"
 }

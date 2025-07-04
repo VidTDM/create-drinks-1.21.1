@@ -7,6 +7,7 @@ import com.vidtdm_xd.create_drinks.items.SugarcaneJuiceItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -39,6 +40,9 @@ public class ModItems {
                     .saturationModifier(1.8f)
                     .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 180), 1f)
                     .alwaysEdible().build())));
+
+    public static final DeferredItem<BlockItem> APPLE_CRATE = ITEMS.register("apple_crate",
+            () -> new BlockItem(ModBlocks.APPLE_CRATE.get(), new Item.Properties()));
 
     private static DeferredItem<JuiceBottleItem> registerSimpleJuice(String name, int nutrition, float saturationMod) {
         return ITEMS.register(name, () -> new JuiceBottleItem(new Item.Properties()

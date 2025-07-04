@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_drinks:apple_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:apple",
+    "count": 4
+  }
+}

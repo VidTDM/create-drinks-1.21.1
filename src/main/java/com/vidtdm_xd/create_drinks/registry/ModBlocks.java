@@ -1,6 +1,7 @@
 package com.vidtdm_xd.create_drinks.registry;
 
 import com.vidtdm_xd.create_drinks.CreateDrinks;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -20,6 +21,9 @@ public class ModBlocks {
             SUGARCANE_JUICE = BLOCKS.register("sugarcane_juice", () -> new LiquidBlock(ModFluids.SUGARCANE_JUICE.get(), waterCopy)),
             MELON_JUICE = BLOCKS.register("melon_juice", () -> new LiquidBlock(ModFluids.MELON_JUICE.get(), waterCopy)),
             CHORUS_FRUIT_JUICE = BLOCKS.register("chorus_fruit_juice", () -> new LiquidBlock(ModFluids.CHORUS_FRUIT_JUICE.get(), waterCopy));
+
+    public static final DeferredBlock<Block> APPLE_CRATE = BLOCKS.register("apple_crate",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

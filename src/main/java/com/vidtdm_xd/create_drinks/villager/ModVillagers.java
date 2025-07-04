@@ -2,9 +2,10 @@ package com.vidtdm_xd.create_drinks.villager;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
-import com.simibubi.create.AllBlocks;
+//import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllSoundEvents;
 import com.vidtdm_xd.create_drinks.CreateDrinks;
+import com.vidtdm_xd.create_drinks.registry.ModBlocks;
 import com.vidtdm_xd.create_drinks.registry.ModItems;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.core.Holder;
@@ -23,7 +24,7 @@ public class ModVillagers {
             DeferredRegister.create(BuiltInRegistries.VILLAGER_PROFESSION, CreateDrinks.MODID);
 
     public static final Holder<PoiType> FRUIT_VENDOR_POI = POI_TYPES.register("fruit_vendor_poi",
-            () -> new PoiType(ImmutableSet.copyOf(AllBlocks.BASIN.get().getStateDefinition().getPossibleStates()), 1, 1));
+            () -> new PoiType(ImmutableSet.copyOf(ModBlocks.APPLE_CRATE.get().getStateDefinition().getPossibleStates()), 1, 1));
     public static final Holder<VillagerProfession> FRUIT_VENDOR = VILLAGER_PROFESSIONS.register("fruit_vendor",
             () -> new VillagerProfession("fruit_vendor", holder -> holder.value() == FRUIT_VENDOR_POI.value(),
                     poiTypeHolder -> poiTypeHolder.value() == FRUIT_VENDOR_POI.value(), ImmutableSet.of(), ImmutableSet.of(),
